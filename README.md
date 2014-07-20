@@ -1,8 +1,10 @@
 ## Javascript
 **File Hosting :**
+
 Silahkan upload **timer.min.js**. Bila suah memakai jQuery terbaru tidak perlu menggunakan file tersebut
 
 **Blogger :**
+
 Upload ke hosting, atau saya sarankan di Google Drive. Kemudian masukkan kode pemanggilnya sebelum kode **</head>**.
 Contoh :
 
@@ -23,7 +25,7 @@ Taruh kode CSS nya di Template, Edit HTML
 ## Cara Menggunakan
 Taruh kode ini di halaman yang ingin dipasang CountDown nya :
 
-```javascript
+```
 <script type='text/javascript'>
 //
 var seconds = **10**;
@@ -31,7 +33,7 @@ function generate() {
 var id;
 id = setInterval(function () {
 if (seconds
-window.location = '**LINK TUJUAN**';
+window.location = 'LINK TUJUAN';
 }else {
 btn.style.display = "none";
 menunggu.style.display = "inline";
