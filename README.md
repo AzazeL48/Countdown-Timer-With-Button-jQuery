@@ -9,7 +9,7 @@ Upload ke hosting, atau saya sarankan di Google Drive. Kemudian masukkan kode pe
 Contoh :
 
 ```
-<script src="/timer.min.js" type="text/javascript"/>
+<script src="/timer.min.js" type="text/javascript"></script>
 </head>
 ```
 
@@ -32,9 +32,9 @@ var seconds = 10;
 function generate() {
 var id;
 id = setInterval(function () {
-if (seconds < 0){
+if (seconds < 1){
 clearInterval(id);
-window.location = 'LINK TUJUAN';
+window.location = 'URL-LINK';
 }else {
 btn.style.display = "none";
 menunggu.style.display = "inline";
@@ -44,5 +44,9 @@ document.getElementById('tunggu').innerHTML = --seconds;
 //]]>
 </script>
 <button onclick="generate()" id="btn">Download</button>
-<div id="menunggu">File otomatis terunduh dalam <span id="tunggu"/> detik.</div>
+<div id="menunggu">File otomatis terunduh dalam <b><span id="tunggu"></span> detik</b></div>
 ```
+
+## DEMO
+Klik link dibawah ini untuk melihat hasil countdown
+[DEMO](http://azazel48.github.io/demo-countdown.github.io)
