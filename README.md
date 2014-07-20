@@ -5,8 +5,8 @@ Silahkan upload **timer.min.js**. Bila suah memakai jQuery terbaru tidak perlu m
 **Blogger :**
 Upload ke hosting, atau saya sarankan di Google Drive. Kemudian masukkan kode pemanggilnya sebelum kode **</head>**.
 Contoh :
-> <script src="/timer.min.js" type="text/javascript"/>
-> </head>
+> ```<script src="/timer.min.js" type="text/javascript"/>
+> </head>```
 Bila suah memakai jQuery terbaru tidak perlu menggunakan file tersebut
 
 ## CSS
