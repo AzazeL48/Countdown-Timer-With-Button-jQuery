@@ -27,12 +27,13 @@ Taruh kode ini di halaman yang ingin dipasang CountDown nya :
 
 ```
 <script type='text/javascript'>
-//
-var seconds = **10**;
+//<![CDATA[
+var seconds = 10;
 function generate() {
 var id;
 id = setInterval(function () {
-if (seconds
+if (seconds < 0){
+clearInterval(id);
 window.location = 'LINK TUJUAN';
 }else {
 btn.style.display = "none";
@@ -43,5 +44,5 @@ document.getElementById('tunggu').innerHTML = --seconds;
 //]]>
 </script>
 <button onclick="generate()" id="btn">Download</button>
-<div id="menunggu">File otomatis terunduh dalam <span id="tunggu"/> detik
+<div id="menunggu">File otomatis terunduh dalam <span id="tunggu"/> detik.</div>
 ```
