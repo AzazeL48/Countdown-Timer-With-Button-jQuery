@@ -5,8 +5,9 @@ Silahkan upload **timer.min.js**. Bila suah memakai jQuery terbaru tidak perlu m
 **Blogger :**
 Upload ke hosting, atau saya sarankan di Google Drive. Kemudian masukkan kode pemanggilnya sebelum kode **</head>**.
 Contoh :
-> ```<script src="/timer.min.js" type="text/javascript"/>
-> </head>```
+```<script src="/timer.min.js" type="text/javascript"/>
+
+</head>```
 Bila suah memakai jQuery terbaru tidak perlu menggunakan file tersebut
 
 ## CSS
@@ -19,7 +20,7 @@ Taruh kode CSS nya di Template, Edit HTML
 ## Cara Menggunakan
 Taruh kode ini di halaman yang ingin dipasang CountDown nya :
 
-<script type='text/javascript'>
+```<script type='text/javascript'>
 //
 var seconds = **10**;
 function generate() {
@@ -36,4 +37,4 @@ document.getElementById('tunggu').innerHTML = --seconds;
 //]]>
 </script>
 <button onclick="generate()" id="btn">Download</button>
-<div id="menunggu">File otomatis terunduh dalam <span id="tunggu"/> detik
+<div id="menunggu">File otomatis terunduh dalam <span id="tunggu"/> detik```
